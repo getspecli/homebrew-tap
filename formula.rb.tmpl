@@ -27,7 +27,7 @@ class Specli < Formula
   end
 
   def install
-    bin.install Dir["specli_*/specli"]
+    bin.install "specli"
   end
 
   test do
