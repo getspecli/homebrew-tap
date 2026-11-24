@@ -1,28 +1,28 @@
 class Specli < Formula
   desc "Browser viewer/editor for spec-driven design artifacts"
   homepage "https://spec.li"
-  version "0.3.5"
+  version "0.3.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/getspecli/specli/releases/download/v0.3.5/specli_v0.3.5_darwin_arm64.tar.gz"
-      sha256 "e6a2a16a8486776c97c3400999176ed9417181e550de27c13e52cbcafb178a8b"
+      url "https://github.com/getspecli/specli/releases/download/v0.3.6/specli_v0.3.6_darwin_arm64.tar.gz"
+      sha256 "f9cc2c52e374e15d8be08e888a9ae184fa00ccae32d54166e0c157ac09615ab3"
     end
     on_intel do
-      url "https://github.com/getspecli/specli/releases/download/v0.3.5/specli_v0.3.5_darwin_amd64.tar.gz"
-      sha256 "650f589da6cbdb9fb596b9fd1b7de70dbf6294d2013a12ec4f1540d5d65b2145"
+      url "https://github.com/getspecli/specli/releases/download/v0.3.6/specli_v0.3.6_darwin_amd64.tar.gz"
+      sha256 "756f1cda476c2c2e6d9f723348f0f19c6123449f3fd13b190e663f4352f7d105"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/getspecli/specli/releases/download/v0.3.5/specli_v0.3.5_linux_arm64.tar.gz"
-      sha256 "5c1e14654b2ee1d76d9d1c103c3049289b69d6afb9353c9ec4d1a326ab73bf56"
+      url "https://github.com/getspecli/specli/releases/download/v0.3.6/specli_v0.3.6_linux_arm64.tar.gz"
+      sha256 "8e1a6e079795cafaae43371e8ec51ad25ed04257666fb52f482eab6c8c692971"
     end
     on_intel do
-      url "https://github.com/getspecli/specli/releases/download/v0.3.5/specli_v0.3.5_linux_amd64.tar.gz"
-      sha256 "9a4439ce967bcefa920d1531eb58ca35af0b6e34f86539687fa7a6b2e7252cda"
+      url "https://github.com/getspecli/specli/releases/download/v0.3.6/specli_v0.3.6_linux_amd64.tar.gz"
+      sha256 "3bad013a4375e3184038e9bdb536959b127721b333dfa021b5754df2191f0eb2"
     end
   end
 
